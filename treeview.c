@@ -11,7 +11,7 @@ int main() {
         gyoker = beszur(gyoker, minta[i]);
     }
 
-    bifa_megjelenit(gyoker, 360, 36, 0, 24);
+    bifa_megjelenit(gyoker, 0, 24);
 
     freefa(gyoker);
 

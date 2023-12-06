@@ -3,7 +3,7 @@ project(lab C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(lab nzh2.c debugmalloc.h )
+add_executable(lab mergesort.c debugmalloc.h )
 
 target_compile_options(${PROJECT_NAME} PRIVATE
     -Wall -Wextra -Wpedantic -Werror

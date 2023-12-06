@@ -1,8 +1,8 @@
 [
 {
   "directory": "/home/matyas/sata/code/prog1/lab/build",
-  "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/sysprof-6 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/webp -g -std=gnu11 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/lab.dir/nzh2.c.o -c /home/matyas/sata/code/prog1/lab/nzh2.c",
-  "file": "/home/matyas/sata/code/prog1/lab/nzh2.c",
-  "output": "CMakeFiles/lab.dir/nzh2.c.o"
+  "command": "/usr/bin/gcc  -I/usr/include/SDL2 -I/usr/include/sysprof-6 -I/usr/include/libpng16 -I/usr/include/glib-2.0 -I/usr/lib64/glib-2.0/include -I/usr/include/harfbuzz -I/usr/include/freetype2 -I/usr/include/webp -g -std=gnu11 -Wall -Wextra -Wpedantic -Werror -o CMakeFiles/lab.dir/mergesort.c.o -c /home/matyas/sata/code/prog1/lab/mergesort.c",
+  "file": "/home/matyas/sata/code/prog1/lab/mergesort.c",
+  "output": "CMakeFiles/lab.dir/mergesort.c.o"
 }
 ]

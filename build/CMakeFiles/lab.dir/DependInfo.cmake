@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/matyas/sata/code/prog1/lab/nzh2.c" "CMakeFiles/lab.dir/nzh2.c.o" "gcc" "CMakeFiles/lab.dir/nzh2.c.o.d"
+  "/home/matyas/sata/code/prog1/lab/mergesort.c" "CMakeFiles/lab.dir/mergesort.c.o" "gcc" "CMakeFiles/lab.dir/mergesort.c.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

@@ -185,9 +185,7 @@ void ordered_insert(node2** head, int adat){
         return;
     }
     node2 *iter = *head;
-    for(iter = *head; iter->next != NULL && iter->next->data <= adat; iter = iter->next){
-
-    }
+    for(iter = *head; iter->next != NULL && iter->next->data <= adat; iter = iter->next)
     uj->next = iter->next;
     if(iter->next != NULL){
         iter->next->prev = uj;
@@ -252,5 +250,8 @@ int main(){
     keresofa(gyoker) ? printf("keresofa\n") : printf("nem keresofa\n");
 
     freefa(gyoker);
+
+
+    
     freelist2(eleje2);
 }

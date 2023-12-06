@@ -129,29 +129,29 @@ lab/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
 .PHONY : lab/fast
 
-nzh2.o: nzh2.c.o
-.PHONY : nzh2.o
+mergesort.o: mergesort.c.o
+.PHONY : mergesort.o
 
 # target to build an object file
-nzh2.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/nzh2.c.o
-.PHONY : nzh2.c.o
+mergesort.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/mergesort.c.o
+.PHONY : mergesort.c.o
 
-nzh2.i: nzh2.c.i
-.PHONY : nzh2.i
+mergesort.i: mergesort.c.i
+.PHONY : mergesort.i
 
 # target to preprocess a source file
-nzh2.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/nzh2.c.i
-.PHONY : nzh2.c.i
+mergesort.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/mergesort.c.i
+.PHONY : mergesort.c.i
 
-nzh2.s: nzh2.c.s
-.PHONY : nzh2.s
+mergesort.s: mergesort.c.s
+.PHONY : mergesort.s
 
 # target to generate assembly for a file
-nzh2.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/nzh2.c.s
-.PHONY : nzh2.c.s
+mergesort.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/mergesort.c.s
+.PHONY : mergesort.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab"
-	@echo "... nzh2.o"
-	@echo "... nzh2.i"
-	@echo "... nzh2.s"
+	@echo "... mergesort.o"
+	@echo "... mergesort.i"
+	@echo "... mergesort.s"
 .PHONY : help
 
 

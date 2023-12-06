@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/lab.dir/nzh2.c.o -o lab  -lSDL2 -lSDL2_gfx -lSDL2 -lSDL2_ttf -lSDL2 -lSDL2_image -lSDL2 -lSDL2_gfx -lSDL2_ttf -lSDL2_image 
+/usr/bin/gcc -g CMakeFiles/lab.dir/mergesort.c.o -o lab  -lSDL2 -lSDL2_gfx -lSDL2 -lSDL2_ttf -lSDL2 -lSDL2_image -lSDL2 -lSDL2_gfx -lSDL2_ttf -lSDL2_image 
