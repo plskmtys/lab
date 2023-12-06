@@ -1,0 +1,3 @@
+/home/matyas/sata/code/prog1/lab/cmake-build-debug/CMakeFiles/lab.dir
+/home/matyas/sata/code/prog1/lab/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/matyas/sata/code/prog1/lab/cmake-build-debug/CMakeFiles/rebuild_cache.dir
