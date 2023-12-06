@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
+#ifndef bool
+    #include <stdbool.h>
+#endif
 
 typedef struct Node{
     int data;
@@ -82,6 +86,40 @@ int cmp(void const *a, void const *b){
     return -1;
 }
 
+int LinearisKereses(int haystack[], int needle, int size, bool reverse){
+    if(haystack == NULL) return -1;
+    int nov = 1;
+    int start = 0;
+    int end = size;
+    
+    if(reverse){
+        nov = -1;
+        start = size-1;
+        end = -1;
+    }
+    
+    for(int i = start; i != end; i+=nov){
+        if(needle == haystack[i]){
+            return i;
+        }
+    }
+    return -1;
+}
+
+int BinarisKereses(int const haystack[], int const needle, int low, int high){
+    if(high>=low){
+        int mid = low + (high-low) / 2;
+
+        if(haystack[mid] == needle){
+            return mid;
+
+        }
+
+        return (haystack[mid] < needle ? BinarisKereses(haystack, needle, mid+1, high) : BinarisKereses(haystack, needle, low, mid-1));
+    }
+    return -1;
+}
+
 int main(){
     int tomb[] = {32, 7, 11, 4, 3, 7, 9, 15, 66, 44, 51, 21, 19, 37};
     
@@ -94,6 +132,23 @@ int main(){
     printf("sorted list:\n");
     for(int i = 0; i< 14; i++) printf("%d, ", tomb[i]); 
     printf("\n");
+
+    int rtomb[50];
+    time_t t;
+    srand((unsigned) time(&t));
+    for(int i = 0; i<50; i++){
+        rtomb[i] = rand() % 50;
+    }
+
+    qsort(rtomb, 50, sizeof(int), cmp);
+    int first = LinearisKereses(rtomb, 23, 50, false);
+    int last = LinearisKereses(rtomb, 23, 50, true);
+
+    printf("eleje: %d\nvege: %d\n", first, last);
+
+    first = BinarisKereses(rtomb, 23, 0, 50);
+    last = BinarisKereses(rtomb, 23, 0, 50);
+    printf("eleje: %d\nvege: %d\n", first, last);
 
     //free
     FreeList(head);

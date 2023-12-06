@@ -69,28 +69,28 @@ include CMakeFiles/lab.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab.dir/flags.make
 
-CMakeFiles/lab.dir/mergesort.c.o: CMakeFiles/lab.dir/flags.make
-CMakeFiles/lab.dir/mergesort.c.o: /home/matyas/sata/code/prog1/lab/mergesort.c
-CMakeFiles/lab.dir/mergesort.c.o: CMakeFiles/lab.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matyas/sata/code/prog1/lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab.dir/mergesort.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lab.dir/mergesort.c.o -MF CMakeFiles/lab.dir/mergesort.c.o.d -o CMakeFiles/lab.dir/mergesort.c.o -c /home/matyas/sata/code/prog1/lab/mergesort.c
+CMakeFiles/lab.dir/treeview.c.o: CMakeFiles/lab.dir/flags.make
+CMakeFiles/lab.dir/treeview.c.o: /home/matyas/sata/code/prog1/lab/treeview.c
+CMakeFiles/lab.dir/treeview.c.o: CMakeFiles/lab.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/matyas/sata/code/prog1/lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab.dir/treeview.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/lab.dir/treeview.c.o -MF CMakeFiles/lab.dir/treeview.c.o.d -o CMakeFiles/lab.dir/treeview.c.o -c /home/matyas/sata/code/prog1/lab/treeview.c
 
-CMakeFiles/lab.dir/mergesort.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab.dir/mergesort.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matyas/sata/code/prog1/lab/mergesort.c > CMakeFiles/lab.dir/mergesort.c.i
+CMakeFiles/lab.dir/treeview.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab.dir/treeview.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/matyas/sata/code/prog1/lab/treeview.c > CMakeFiles/lab.dir/treeview.c.i
 
-CMakeFiles/lab.dir/mergesort.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab.dir/mergesort.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matyas/sata/code/prog1/lab/mergesort.c -o CMakeFiles/lab.dir/mergesort.c.s
+CMakeFiles/lab.dir/treeview.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab.dir/treeview.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/matyas/sata/code/prog1/lab/treeview.c -o CMakeFiles/lab.dir/treeview.c.s
 
 # Object files for target lab
 lab_OBJECTS = \
-"CMakeFiles/lab.dir/mergesort.c.o"
+"CMakeFiles/lab.dir/treeview.c.o"
 
 # External object files for target lab
 lab_EXTERNAL_OBJECTS =
 
-lab: CMakeFiles/lab.dir/mergesort.c.o
+lab: CMakeFiles/lab.dir/treeview.c.o
 lab: CMakeFiles/lab.dir/build.make
 lab: CMakeFiles/lab.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/matyas/sata/code/prog1/lab/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable lab"

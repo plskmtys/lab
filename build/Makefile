@@ -129,29 +129,29 @@ lab/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
 .PHONY : lab/fast
 
-mergesort.o: mergesort.c.o
-.PHONY : mergesort.o
+treeview.o: treeview.c.o
+.PHONY : treeview.o
 
 # target to build an object file
-mergesort.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/mergesort.c.o
-.PHONY : mergesort.c.o
+treeview.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/treeview.c.o
+.PHONY : treeview.c.o
 
-mergesort.i: mergesort.c.i
-.PHONY : mergesort.i
+treeview.i: treeview.c.i
+.PHONY : treeview.i
 
 # target to preprocess a source file
-mergesort.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/mergesort.c.i
-.PHONY : mergesort.c.i
+treeview.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/treeview.c.i
+.PHONY : treeview.c.i
 
-mergesort.s: mergesort.c.s
-.PHONY : mergesort.s
+treeview.s: treeview.c.s
+.PHONY : treeview.s
 
 # target to generate assembly for a file
-mergesort.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/mergesort.c.s
-.PHONY : mergesort.c.s
+treeview.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/treeview.c.s
+.PHONY : treeview.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab"
-	@echo "... mergesort.o"
-	@echo "... mergesort.i"
-	@echo "... mergesort.s"
+	@echo "... treeview.o"
+	@echo "... treeview.i"
+	@echo "... treeview.s"
 .PHONY : help
 
 

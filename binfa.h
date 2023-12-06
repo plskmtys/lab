@@ -6,7 +6,7 @@
     #define BINFA
 
 #define WINDOW_HEIGHT 720
-#define WINDOW_WIDTH 1000
+#define WINDOW_WIDTH 1280
 typedef struct fa{
     /** @brief A fa gyökere által tárolt adat*/
     int data;
@@ -59,13 +59,13 @@ void fn_bifa_megjelenit(SDL_Renderer *renderer, TTF_Font* font, fa *node, int x,
 
     if (node->l) {
         SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
-        SDL_RenderDrawLine(renderer, x, y, x - 176/(depth+1), y + 80);
-        fn_bifa_megjelenit(renderer, font, node->l, x - 176/(depth+1), y + 80, depth + 1, radius);
+        SDL_RenderDrawLine(renderer, x, y, x - WINDOW_WIDTH/(5*(depth+1)), y + WINDOW_HEIGHT/8);
+        fn_bifa_megjelenit(renderer, font, node->l, x - WINDOW_WIDTH/(5*(depth+1)), y + WINDOW_HEIGHT/8, depth + 1, radius);
     }
     if (node->r) {
         SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE);
-        SDL_RenderDrawLine(renderer, x, y, x + 176/(depth+1), y + 80);
-        fn_bifa_megjelenit(renderer, font, node->r, x + 176/(depth+1), y + 80, depth + 1, radius);
+        SDL_RenderDrawLine(renderer, x, y, x + WINDOW_WIDTH/(5*(depth+1)), y + WINDOW_HEIGHT/8);
+        fn_bifa_megjelenit(renderer, font, node->r, x + WINDOW_WIDTH/(5*(depth+1)), y + WINDOW_HEIGHT/8, depth + 1, radius);
     }
 
     SDL_SetRenderDrawColor(renderer, 0, 0, 255, 255);
@@ -82,7 +82,7 @@ void fn_bifa_megjelenit(SDL_Renderer *renderer, TTF_Font* font, fa *node, int x,
     SDL_DestroyTexture(texture);
 }
 
-void bifa_megjelenit(fa *node, int depth, int radius) {
+void bifa_megjelenit(fa *node, int radius) {
     SDL_Init(SDL_INIT_VIDEO);
 
     if (TTF_Init() == -1) {
@@ -90,13 +90,13 @@ void bifa_megjelenit(fa *node, int depth, int radius) {
         exit(2);
     }
 
-    TTF_Font* font = TTF_OpenFont("/usr/share/fonts/google-droid-sans-fonts/DroidSans.ttf", 20);
+    TTF_Font* font = TTF_OpenFont("/usr/share/fonts/google-droid-sans-fonts/DroidSans.ttf", radius-4);
     if (font == NULL) printf("TTF_OpenFont: %s\n", TTF_GetError());
 
     SDL_Window *window = SDL_CreateWindow("Tree Display", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, WINDOW_WIDTH, WINDOW_HEIGHT, SDL_WINDOW_SHOWN);
     SDL_Renderer *renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
 
-    fn_bifa_megjelenit(renderer, font, node, WINDOW_WIDTH/2, 50, depth, radius);
+    fn_bifa_megjelenit(renderer, font, node, WINDOW_WIDTH/2, 50, 0, radius);
 
     SDL_RenderPresent(renderer);
     SDL_Event event;

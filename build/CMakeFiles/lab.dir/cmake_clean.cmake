@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab.dir/mergesort.c.o"
-  "CMakeFiles/lab.dir/mergesort.c.o.d"
+  "CMakeFiles/lab.dir/treeview.c.o"
+  "CMakeFiles/lab.dir/treeview.c.o.d"
   "lab"
   "lab.pdb"
 )
