@@ -3,7 +3,7 @@ project(lab C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(lab treeview.c debugmalloc.h )
+add_executable(lab linkedlist.c debugmalloc.h )
 
 target_compile_options(${PROJECT_NAME} PRIVATE
     -Wall -Wextra -Wpedantic -Werror

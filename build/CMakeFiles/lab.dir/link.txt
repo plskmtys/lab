@@ -1,1 +1,1 @@
-/usr/bin/gcc -g CMakeFiles/lab.dir/treeview.c.o -o lab  -lSDL2 -lSDL2_gfx -lSDL2 -lSDL2_ttf -lSDL2 -lSDL2_image -lSDL2 -lSDL2_gfx -lSDL2_ttf -lSDL2_image 
+/usr/bin/gcc -g CMakeFiles/lab.dir/linkedlist.c.o -o lab  -lSDL2 -lSDL2_gfx -lSDL2 -lSDL2_ttf -lSDL2 -lSDL2_image -lSDL2 -lSDL2_gfx -lSDL2_ttf -lSDL2_image 

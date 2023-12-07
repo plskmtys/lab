@@ -129,29 +129,29 @@ lab/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/build
 .PHONY : lab/fast
 
-treeview.o: treeview.c.o
-.PHONY : treeview.o
+linkedlist.o: linkedlist.c.o
+.PHONY : linkedlist.o
 
 # target to build an object file
-treeview.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/treeview.c.o
-.PHONY : treeview.c.o
+linkedlist.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/linkedlist.c.o
+.PHONY : linkedlist.c.o
 
-treeview.i: treeview.c.i
-.PHONY : treeview.i
+linkedlist.i: linkedlist.c.i
+.PHONY : linkedlist.i
 
 # target to preprocess a source file
-treeview.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/treeview.c.i
-.PHONY : treeview.c.i
+linkedlist.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/linkedlist.c.i
+.PHONY : linkedlist.c.i
 
-treeview.s: treeview.c.s
-.PHONY : treeview.s
+linkedlist.s: linkedlist.c.s
+.PHONY : linkedlist.s
 
 # target to generate assembly for a file
-treeview.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/treeview.c.s
-.PHONY : treeview.c.s
+linkedlist.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab.dir/build.make CMakeFiles/lab.dir/linkedlist.c.s
+.PHONY : linkedlist.c.s
 
 # Help Target
 help:
@@ -162,9 +162,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... lab"
-	@echo "... treeview.o"
-	@echo "... treeview.i"
-	@echo "... treeview.s"
+	@echo "... linkedlist.o"
+	@echo "... linkedlist.i"
+	@echo "... linkedlist.s"
 .PHONY : help
 
 

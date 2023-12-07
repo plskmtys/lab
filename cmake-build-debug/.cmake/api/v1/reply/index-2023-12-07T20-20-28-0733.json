@@ -8,34 +8,34 @@
 		},
 		"paths" : 
 		{
-			"cmake" : "/var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/bin/cmake",
-			"cpack" : "/var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/bin/cpack",
-			"ctest" : "/var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/bin/ctest",
-			"root" : "/var/lib/snapd/snap/clion/250/bin/cmake/linux/x64/share/cmake-3.26"
+			"cmake" : "/var/lib/snapd/snap/clion/259/bin/cmake/linux/x64/bin/cmake",
+			"cpack" : "/var/lib/snapd/snap/clion/259/bin/cmake/linux/x64/bin/cpack",
+			"ctest" : "/var/lib/snapd/snap/clion/259/bin/cmake/linux/x64/bin/ctest",
+			"root" : "/var/lib/snapd/snap/clion/259/bin/cmake/linux/x64/share/cmake-3.27"
 		},
 		"version" : 
 		{
 			"isDirty" : false,
 			"major" : 3,
-			"minor" : 26,
-			"patch" : 4,
-			"string" : "3.26.4",
+			"minor" : 27,
+			"patch" : 0,
+			"string" : "3.27.0",
 			"suffix" : ""
 		}
 	},
 	"objects" : 
 	[
 		{
-			"jsonFile" : "codemodel-v2-92783735ad8de9a9da99.json",
+			"jsonFile" : "codemodel-v2-241eb3a537739c684527.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 5
+				"minor" : 6
 			}
 		},
 		{
-			"jsonFile" : "cache-v2-0c1c77c43bbe2d2c552f.json",
+			"jsonFile" : "cache-v2-676244831ead39d7813f.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -44,7 +44,7 @@
 			}
 		},
 		{
-			"jsonFile" : "cmakeFiles-v1-7bce7d6b38fdcf9fb1e8.json",
+			"jsonFile" : "cmakeFiles-v1-cc23cd37087ee6325f89.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -66,7 +66,7 @@
 	{
 		"cache-v2" : 
 		{
-			"jsonFile" : "cache-v2-0c1c77c43bbe2d2c552f.json",
+			"jsonFile" : "cache-v2-676244831ead39d7813f.json",
 			"kind" : "cache",
 			"version" : 
 			{
@@ -76,7 +76,7 @@
 		},
 		"cmakeFiles-v1" : 
 		{
-			"jsonFile" : "cmakeFiles-v1-7bce7d6b38fdcf9fb1e8.json",
+			"jsonFile" : "cmakeFiles-v1-cc23cd37087ee6325f89.json",
 			"kind" : "cmakeFiles",
 			"version" : 
 			{
@@ -86,12 +86,12 @@
 		},
 		"codemodel-v2" : 
 		{
-			"jsonFile" : "codemodel-v2-92783735ad8de9a9da99.json",
+			"jsonFile" : "codemodel-v2-241eb3a537739c684527.json",
 			"kind" : "codemodel",
 			"version" : 
 			{
 				"major" : 2,
-				"minor" : 5
+				"minor" : 6
 			}
 		},
 		"toolchains-v1" : 
